@@ -1,17 +1,16 @@
 {
-  "name": "frontend",
-  "version": "0.0.0",
+  "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.3.4"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.3.9"
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "nuxt": "^3.6.1"
   }
 }
