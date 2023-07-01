@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   data() {
     return {
@@ -35,3 +35,5 @@ export default {
   },
 };
 </script>
+
+<style scoped></style>
