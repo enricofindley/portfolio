@@ -1,14 +1,17 @@
 import React from "react";
-import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
-import Project from "@/components/Project";
-
+import Header from "@/components/Header";
+import Education from "@/components/Education";
+import Work from "@/components/Work";
 const HomePage = () => {
   return (
     <>
       <Header />
       <main>
-        <Project />
+        <Hero />
+        <Education />
+        <Work />
       </main>
       <Footer />
     </>
