@@ -12,7 +12,7 @@ export default function Hero() {
           <h1 className="text-5xl font-bold mb-1">Enrico Findley</h1>
           <h3 className="text-xl font-bold">Software Engineer | Data Scientist</h3>
           <p className="py-6">
-            Hi I'm Enrico Findley. Currently I'm a Software Engineer, and also interested to work in Software
+            Hi I am Enrico Findley. Currently I am a Software Engineer, and also interested to work in Software
             Engineering or Data Science role.
           </p>
           <div>
