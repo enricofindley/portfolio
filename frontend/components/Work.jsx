@@ -23,6 +23,18 @@ export default function Work() {
                   className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white">
                   <div className="flex flex-col flex-1 gap-4">
                     <h4 className="text-lg font-medium text-emerald-500">
+                      Freelance Software Developer{" "}
+                      <span className="text-lg font-normal text-white-500"> | 04/2023 - Current</span>{" "}
+                    </h4>
+                    <h4 className="font-medium text-emerald-500">Upwork Platform</h4>
+                    <ul className="pl-5 list-disc text-slate-500 marker:text-emerald-500"></ul>
+                  </div>
+                </li>
+                <li
+                  role="article"
+                  className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white">
+                  <div className="flex flex-col flex-1 gap-4">
+                    <h4 className="text-lg font-medium text-emerald-500">
                       Software Engineer <span className="text-lg font-normal text-white-500"> | 01/2021 - 12/2022</span>{" "}
                     </h4>
                     <h4 className="font-medium text-emerald-500">PT. Darmajaya Digital Solusi</h4>

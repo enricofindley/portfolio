@@ -14,7 +14,6 @@ export default function HeroProjects() {
             </div>
             <div className="grid flex-grow place-items-center">
               <h1 class="text-5xl font-bold text-center">Noteworthy Project</h1>
-              <Carousel />
             </div>
           </div>
         </div>
