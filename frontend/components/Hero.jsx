@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse items-center">
         <img
-          src="/profile.png"
+          src="/profile.webp"
           className="w-72 shadow-2xl rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
           alt="Enrico Findley"
         />

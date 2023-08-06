@@ -34,7 +34,7 @@ export default function Carousel() {
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <li>
               <Card
-                imageUrl="/portfolio.png"
+                imageUrl="/portfolio.webp"
                 link="https://github.com/enricofindley/portfolio"
                 title="Portfolio Project"
                 tech="8.99"
@@ -43,7 +43,7 @@ export default function Carousel() {
             </li>
             <li>
               <Card
-                imageUrl="/corn-disease.png"
+                imageUrl="/corn-disease.webp"
                 link="https://www.kaggle.com/code/enricofindley/house-sales-in-king-county-usa-data-analysis"
                 title="Thesis Project"
                 tech="8.99"
@@ -52,7 +52,7 @@ export default function Carousel() {
             </li>
             <li>
               <Card
-                imageUrl="/rocket.png"
+                imageUrl="/rocket.webp"
                 link="https://www.kaggle.com/code/enricofindley/house-sales-in-king-county-usa-data-analysis"
                 title="SpaceX Project"
                 tech="8.99"

@@ -10,7 +10,7 @@ export default function Work() {
 
           <div className="flex flex-col w-full lg:flex-row">
             <div className="grid flex-grow place-items-center pb-10">
-              <img src="/work.png" alt="Work" className="w-96" />
+              <img src="/work.webp" alt="Work" className="w-96" />
             </div>
 
             <div className="grid flex-grow place-items-center">
