@@ -10,7 +10,7 @@ export default function HeroProjects() {
 
           <div className="flex flex-col w-full lg:flex-row">
             <div className="grid flex-grow place-items-center pb-10">
-              <img src="/project-hero.webp" className="w-full" />
+              <img src="/project-hero.webp" alt="Projects" className="w-full" />
             </div>
             <div className="grid flex-grow place-items-center">
               <h1 class="text-5xl font-bold text-center">Noteworthy Project</h1>
