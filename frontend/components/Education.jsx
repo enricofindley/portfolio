@@ -10,7 +10,7 @@ export default function Education() {
 
           <div className="flex flex-col w-full lg:flex-row">
             <div className="grid flex-grow place-items-center pb-10">
-              <img src="/education.png" className="w-96" />
+              <img src="/education.png" alt="Education" className="w-96" />
             </div>
 
             <div className="grid flex-grow place-items-center">

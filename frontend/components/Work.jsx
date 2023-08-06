@@ -10,7 +10,7 @@ export default function Work() {
 
           <div className="flex flex-col w-full lg:flex-row">
             <div className="grid flex-grow place-items-center pb-10">
-              <img src="/work.png" className="w-96" />
+              <img src="/work.png" alt="Work" className="w-96" />
             </div>
 
             <div className="grid flex-grow place-items-center">
@@ -38,7 +38,7 @@ export default function Work() {
                       Software Engineer <span className="text-lg font-normal text-white-500"> | 01/2021 - 12/2022</span>{" "}
                     </h4>
                     <h4 className="font-medium text-emerald-500">PT. Darmajaya Digital Solusi</h4>
-                    <ul className="pl-5 list-disc text-slate-500 marker:text-emerald-500">
+                    <ul className="pl-5 list-disc text-white-500 marker:text-emerald-500">
                       <li>Cleaning excel data and export to database</li>
                       <li>Trained 200+ government administrator to use village information system</li>
                       <li>Taught and managed 10+ government administrator to maintain server and application</li>
