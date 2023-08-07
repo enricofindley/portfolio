@@ -3,15 +3,11 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://acme.com",
+      url: "https://enricofindley.my.id",
       lastModified: new Date(),
     },
     {
-      url: "https://acme.com/about",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://acme.com/blog",
+      url: "https://enricofindley.my.id/projects",
       lastModified: new Date(),
     },
   ];
