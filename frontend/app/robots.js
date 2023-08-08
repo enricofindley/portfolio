@@ -4,6 +4,7 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
       disallow: "/CV.pdf",
+      disallow: "/sitemap.xml",
     },
     sitemap: "https://enricofindley.my.id/sitemap.xml",
   };
