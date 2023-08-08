@@ -3,6 +3,7 @@ export default function robots() {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: "/CV.pdf",
       disallow: "/*.pdf",
       disallow: "/sitemap.xml",
     },
