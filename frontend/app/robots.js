@@ -3,9 +3,12 @@ export default function robots() {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/CV.pdf",
-      disallow: "/*.pdf",
       disallow: "/sitemap.xml",
+    },
+    rules: {
+      userAgent: "*",
+      allow: "/",
+      disallow: "/CV.pdf",
     },
     sitemap: "https://enricofindley.my.id/sitemap.xml",
   };
