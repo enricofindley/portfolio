@@ -3,7 +3,7 @@ export default function robots() {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/sitemap.xml",
+      disallow: ["/sitemap.xml", "/CV.pdf"],
     },
     sitemap: "https://enricofindley.my.id/sitemap.xml",
   };
