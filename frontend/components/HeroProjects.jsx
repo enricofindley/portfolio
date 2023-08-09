@@ -11,7 +11,7 @@ export default function HeroProjects() {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 0 }}
             transition={{ duration: 2, ease: "easeOut" }}>
-            <h1 class="text-5xl font-bold text-center pb-10 text-5xl font-bold text-center bg-gradient-to-r from-emerald-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">
+            <h1 className="text-5xl font-bold text-center pb-10 text-5xl font-bold text-center bg-gradient-to-r from-emerald-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">
               Projects
             </h1>
           </motion.div>

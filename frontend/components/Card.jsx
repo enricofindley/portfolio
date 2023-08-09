@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 export default function Card({ imageUrl, link, title, tech, description }) {
   return (
     <>
@@ -11,7 +12,7 @@ export default function Card({ imageUrl, link, title, tech, description }) {
           <div className="overflow-hidden text-white-500 rounded bg-base-200 shadow-xl shadow-dark-300 transform transition-transform duration-300 ease-in-out hover:scale-105">
             {/*  <!-- Image --> */}
             <figure>
-              <img src={imageUrl} alt={title} className="w-full h-52 object-cover" />
+              <Image src={imageUrl} alt={title} className="w-full h-52 object-cover" width={300} height={300} />
             </figure>
             {/*  <!-- Body--> */}
             <div className="p-6">

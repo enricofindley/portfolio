@@ -10,10 +10,12 @@ export default function Hero() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 60 }}
           transition={{ duration: 2, ease: "easeInOut" }}>
-          <img
+          <Image
             src="/profile.webp"
             className="w-72 shadow-2xl rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 "
             alt="Enrico Findley"
+            width={300}
+            height={300}
           />
         </motion.div>
 

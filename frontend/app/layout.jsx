@@ -15,7 +15,8 @@ export const metadata = {
   viewport: {
     width: "device-width",
     initialScale: 1,
-    maximumScale: 1,
+    maximumScale: 5,
+    userScalable: "yes",
   },
   category: "technology",
   robots: {

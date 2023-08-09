@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 export default function Work() {
   return (
     <>
@@ -68,7 +69,7 @@ export default function Work() {
               initial={{ opacity: 0, x: 60 }}
               transition={{ duration: 2, ease: "easeInOut" }}>
               <div className="grid flex-grow place-items-center pb-10">
-                <img src="/work.webp" alt="Work" className="w-96" />
+                <Image src="/work.webp" alt="Work" className="w-96" width={300} height={300} />
               </div>
             </motion.div>
 

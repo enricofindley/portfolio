@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 export default function Education() {
   return (
     <>
@@ -25,7 +26,7 @@ export default function Education() {
               initial={{ opacity: 0, x: 60 }}
               transition={{ duration: 2, ease: "easeInOut" }}>
               <div className="grid flex-grow place-items-center pb-10">
-                <img src="/education.webp" alt="Education" className="w-96" />
+                <Image src="/education.webp" alt="Education" className="w-96" width={300} height={300} />
               </div>
             </motion.div>
 
@@ -45,11 +46,13 @@ export default function Education() {
                           href="https://darmajaya.ac.id/"
                           target="_blank"
                           className="absolute z-20 inline-flex items-center justify-center w-16 h-16 text-white rounded-full -left-8 ring-2 ring-white">
-                          <img
+                          <Image
                             src="https://upload.wikimedia.org/wikipedia/id/7/7b/Logo-Darmajaya-new.png"
                             alt="Informatics & Business Institute Darmajaya"
                             title="Informatics & Business Institute Darmajaya"
                             className="max-w-full rounded-full"
+                            width={512}
+                            height={512}
                           />
                         </a>
                         <h4 className="ml-4 flex flex-col items-start text-lg font-medium leading-8 text-emerald-500 md:flex-row lg:items-center">
@@ -73,11 +76,13 @@ export default function Education() {
                           target="_blank"
                           href="https://unpar.ac.id/"
                           className="absolute z-20 inline-flex items-center justify-center w-16 h-16 text-white rounded-full -left-8 ring-2 ring-white">
-                          <img
+                          <Image
                             src="https://upload.wikimedia.org/wikipedia/id/thumb/8/88/UNPAR_LOGO.svg/512px-UNPAR_LOGO.svg.png"
                             alt="Parahyangan Catholic University"
                             title="Parahyangan Catholic University"
                             className="max-w-full rounded-full"
+                            width={512}
+                            height={512}
                           />
                         </a>
                         <h4 className="ml-4 flex flex-col items-start text-lg font-medium leading-8 text-emerald-500 md:flex-row lg:items-center">
