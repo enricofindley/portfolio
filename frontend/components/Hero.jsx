@@ -16,6 +16,7 @@ export default function Hero() {
             alt="Enrico Findley"
             width={300}
             height={300}
+            loading="eager"
           />
         </motion.div>
 
