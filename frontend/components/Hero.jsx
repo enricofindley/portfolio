@@ -4,12 +4,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 export default function Hero() {
   return (
-    <div className="hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse items-center lg:mb-32">
+    <div className="hero min-h-screen bg-base-200">
+      <div className="hero-content flex-col lg:flex-row-reverse items-center ">
         <motion.div
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 20 }}
-          transition={{ duration: 1, ease: "easeOut" }}>
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 60 }}
+          transition={{ duration: 2, ease: "easeInOut" }}>
           <img
             src="/profile.webp"
             className="w-72 shadow-2xl rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 "
@@ -18,11 +18,11 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          whileInView={{ opacity: 1, x: 20 }}
-          initial={{ opacity: 0, x: -40 }}
-          transition={{ duration: 1, ease: "easeOut" }}>
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -60 }}
+          transition={{ duration: 2, ease: "easeInOut" }}>
           <div className="p-10 text-center sm:text-left md:text-center lg:text-left ">
-            <h1 className="text-5xl font-bold mb-1">Enrico Findley</h1>
+            <h1 className="text-5xl font-bold mb-1 ">Enrico Findley</h1>
             <h3 className="text-xl font-bold">Software Engineer | Data Scientist</h3>
             <p className="py-6">
               Hi I am Enrico Findley. Currently I am a Software Engineer, and also interested to work in Software
@@ -62,14 +62,14 @@ export default function Hero() {
             <a
               href="/CV.pdf"
               download
-              className="btn btn-primary btn-wide space-x-2 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 text-white font-semibold py-3 px-4 rounded-lg shadow-md transform hover:scale-105 transition duration-300">
+              className="btn btn-outline btn-primary btn-wide space-x-2 font-semibold py-3 px-4 rounded-lg shadow-md transform hover:scale-105 hover:text-base-content transition duration-300">
               Download Resume
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                style={{ fill: "white", transform: "" }}>
+                style={{ fill: "currentColor", transform: "" }}>
                 <path d="M12 16l4-5h-3V4h-2v7H8z" />
                 <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />
               </svg>

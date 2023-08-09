@@ -4,22 +4,26 @@ import { motion } from "framer-motion";
 export default function Education() {
   return (
     <>
-      <section className="min-h-screen p-10 bg-base-100 ">
+      <section className="min-h-screen p-10 bg-base-200">
         <div className="container px-6 m-auto items-center">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 0 }}
             transition={{ duration: 2, ease: "easeOut" }}>
-            <h1 class="text-5xl font-bold text-center pb-10">Education</h1>
+            <h1 className="text-5xl font-bold text-center pb-10 bg-gradient-to-r from-emerald-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">
+              Education
+            </h1>
           </motion.div>
 
           {/*<!-- Component: Alternative Changelog feed --> */}
 
-          <div className="flex flex-col w-full lg:flex-row lg:ml-40">
+          <div className="flex flex-col w-full lg:flex-row gap-4">
+            <div className="grid flex-grow"></div>
+            <div className="grid flex-grow"></div>
             <motion.div
-              whileInView={{ opacity: 1, x: 20 }}
-              initial={{ opacity: 0, x: -40 }}
-              transition={{ duration: 1, ease: "easeOut" }}>
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 60 }}
+              transition={{ duration: 2, ease: "easeInOut" }}>
               <div className="grid flex-grow place-items-center pb-10">
                 <img src="/education.webp" alt="Education" className="w-96" />
               </div>
@@ -29,8 +33,8 @@ export default function Education() {
               <div className="flex justify-center items-center">
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: 40 }}
-                  transition={{ duration: 1, ease: "easeOut" }}>
+                  initial={{ opacity: 0, x: -60 }}
+                  transition={{ duration: 2, ease: "easeInOut" }}>
                   <ul
                     aria-label="User feed"
                     role="feed"
@@ -96,6 +100,7 @@ export default function Education() {
                 </motion.div>
               </div>
             </div>
+            <div className="grid flex-grow"></div>
           </div>
         </div>
       </section>

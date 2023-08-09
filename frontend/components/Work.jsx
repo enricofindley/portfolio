@@ -4,32 +4,25 @@ import { motion } from "framer-motion";
 export default function Work() {
   return (
     <>
-      <section className="min-h-screen p-10 bg-base-100">
+      <section className="min-h-screen p-10 bg-base-200">
         <div className="container px-6 m-auto items-center">
           <motion.div
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0, x: 0 }}
-            transition={{ duration: 2, ease: "easeOut" }}>
-            <h1 class="text-5xl font-bold text-center pb-10">Work Experience</h1>
+            transition={{ duration: 2, ease: "easeIn" }}>
+            <h1 className="text-5xl font-bold text-center pb-10 bg-gradient-to-r from-emerald-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">
+              Work Experience
+            </h1>
           </motion.div>
 
           {/*<!-- Component: Alternative Changelog feed --> */}
 
-          <div className="flex flex-col w-full lg:flex-row lg:ml-40">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -40 }}
-              transition={{ duration: 1, ease: "easeOut" }}>
-              <div className="grid flex-grow place-items-center pb-10">
-                <img src="/work.webp" alt="Work" className="w-96" />
-              </div>
-            </motion.div>
-
+          <div className="flex flex-col-reverse w-full lg:flex-row">
             <div className="grid flex-grow place-items-center ">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: 40 }}
-                transition={{ duration: 1, ease: "easeOut" }}>
+                initial={{ opacity: 0, x: -60 }}
+                transition={{ duration: 2, ease: "easeInOut" }}>
                 <ul
                   aria-label="Changelog feed"
                   role="feed"
@@ -69,6 +62,17 @@ export default function Work() {
                 </ul>
               </motion.div>
             </div>
+
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 60 }}
+              transition={{ duration: 2, ease: "easeInOut" }}>
+              <div className="grid flex-grow place-items-center pb-10">
+                <img src="/work.webp" alt="Work" className="w-96" />
+              </div>
+            </motion.div>
+
+            <div className="grid flex-grow"></div>
           </div>
         </div>
       </section>
