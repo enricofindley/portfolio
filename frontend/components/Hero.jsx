@@ -62,21 +62,22 @@ export default function Hero() {
               </a>
             </div>
             <br />
-            <a
-              href="/CV.pdf"
-              download
-              className="btn btn-outline btn-primary btn-wide space-x-2 font-semibold py-3 px-4 rounded-lg shadow-md transform hover:scale-105 hover:text-base-content transition duration-300">
-              Download Resume
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                style={{ fill: "currentColor", transform: "" }}>
-                <path d="M12 16l4-5h-3V4h-2v7H8z" />
-                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />
-              </svg>
-            </a>
+            <form method="get" action="CV_EnricoFindley.pdf">
+              <button
+                type="submit"
+                className="btn btn-outline btn-primary btn-wide space-x-2 font-semibold py-3 px-4 rounded-lg shadow-md transform hover:scale-105 hover:text-base-content transition duration-300">
+                Download Resume
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style={{ fill: "currentColor", transform: "" }}>
+                  <path d="M12 16l4-5h-3V4h-2v7H8z" />
+                  <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z" />
+                </svg>
+              </button>
+            </form>
           </div>
         </motion.div>
       </div>

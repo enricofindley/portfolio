@@ -18,8 +18,8 @@ export default function HeroProjects() {
 
           {/*<!-- Component: Alternative Changelog feed --> */}
 
-          <div class="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
-            <div class="col-span-4 lg:col-span-3">
+          <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/cat-dog.webp"
                 link="https://www.kaggle.com/code/enricofindley/cat-dog-classification-using-cnn"
@@ -28,7 +28,7 @@ export default function HeroProjects() {
                 description="Classifying cat and dog image using Convolutional Neural Network (CNN)."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/books.webp"
                 link="https://www.kaggle.com/code/enricofindley/books-recommendation-using-knn"
@@ -37,7 +37,7 @@ export default function HeroProjects() {
                 description="Books recommendation using K-Nearest Neighbor algorithm."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/sms.webp"
                 link="https://www.kaggle.com/code/enricofindley/sms-text-classification-using-bidirectional-lstm"
@@ -46,7 +46,7 @@ export default function HeroProjects() {
                 description="Classifying SMS text using Bi-directional LSTM (Long-Short Term Memory)."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/health.webp"
                 link="https://www.kaggle.com/code/enricofindley/health-costs-prediction-with-regression"
@@ -55,7 +55,7 @@ export default function HeroProjects() {
                 description="Health costs prediction with dense NN (Neural Network)."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/wine.webp"
                 link="https://www.kaggle.com/code/enricofindley/red-wine-quality-prediction-using-regression-tree"
@@ -64,7 +64,7 @@ export default function HeroProjects() {
                 description="Red wine quality prediction using Regression Tree."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/stock.webp"
                 link="https://www.kaggle.com/code/enricofindley/stock-and-revenue-analysis"
@@ -73,7 +73,7 @@ export default function HeroProjects() {
                 description="Tesla and GameStop stock and revenue analysis."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/house.webp"
                 link="https://www.kaggle.com/code/enricofindley/house-sales-in-king-county-usa-data-analysis"
@@ -82,7 +82,7 @@ export default function HeroProjects() {
                 description="House sales in King County, USA data analysis."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/rain.webp"
                 link="https://www.kaggle.com/enricofindley/rain-prediction-in-australia"
@@ -91,7 +91,7 @@ export default function HeroProjects() {
                 description="Predicting rain in Australia using Logistic Regression, Linear Regression, KNN, Decision Tree, and SVM."
               />
             </div>
-            <div class="col-span-4 lg:col-span-3">
+            <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/chicago.webp"
                 link="https://www.kaggle.com/enricofindley/chicago-etl-using-sqlite"
