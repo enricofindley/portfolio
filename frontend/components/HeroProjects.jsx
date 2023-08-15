@@ -22,7 +22,7 @@ export default function HeroProjects() {
             <div className="col-span-4 lg:col-span-3">
               <Card
                 imageUrl="/ebumdes.webp"
-                link="http://ebumdes.enrico.free.nf"
+                link="https://ebumdes.enrico.free.nf"
                 title="E-BUMDes"
                 tech="8.99"
                 description="Web dashboard application to input finance data of company owned by village government in Lampung."
