@@ -21,6 +21,15 @@ export default function HeroProjects() {
           <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
             <div className="col-span-4 lg:col-span-3">
               <Card
+                imageUrl="/ebumdes.webp"
+                link="http://ebumdes.enrico.free.nf"
+                title="E-BUMDes"
+                tech="8.99"
+                description="Web dashboard application to input finance data of company owned by village government in Lampung."
+              />
+            </div>
+            <div className="col-span-4 lg:col-span-3">
+              <Card
                 imageUrl="/cat-dog.webp"
                 link="https://www.kaggle.com/code/enricofindley/cat-dog-classification-using-cnn"
                 title="Cat & Dog Classification"
