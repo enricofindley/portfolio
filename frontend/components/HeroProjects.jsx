@@ -30,6 +30,15 @@ export default function HeroProjects() {
             </div>
             <div className="col-span-4 lg:col-span-3">
               <Card
+                imageUrl="/frontend-sid.webp"
+                link="https://sid.enrico.free.nf"
+                title="Village Information System"
+                tech="8.99"
+                description="Frontend of Village Information System (SID) using TailwindCSS."
+              />
+            </div>
+            <div className="col-span-4 lg:col-span-3">
+              <Card
                 imageUrl="/cat-dog.webp"
                 link="https://www.kaggle.com/code/enricofindley/cat-dog-classification-using-cnn"
                 title="Cat & Dog Classification"
